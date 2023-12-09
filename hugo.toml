@@ -1,0 +1,26 @@
+baseURL = 'https://ksajalk1.github.io/obsidian-notes/'
+languageCode = 'en-us'
+title = 'Bytes and Reels'
+theme = 'archie'
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+paginate=3 # articles per page
+
+[params]
+  author = "Sajal Khandelwal"
+  description = "Musings and ramblings about pretty much anything"
+  mode="auto" # color-mode → light,dark,toggle or auto
+	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+	mathjax = true # enable MathJax support
+	katex = true # enable KaTeX support
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
